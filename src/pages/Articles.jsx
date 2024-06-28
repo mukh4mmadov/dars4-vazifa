@@ -19,9 +19,9 @@ function Articles() {
       {phones &&
         phones.data.map((phone) => {
           return (
-            <div key={phone.id} className="rounded-xl bg-base-200 p-4">
+            <div key={phone.id} className="rounded-xl bg-base-207 p-8">
               <img
-                className="w-52 h-72 object-cover"
+                className="w-57 h-72 object-cover"
                 src={phone.images}
                 alt=""
               />

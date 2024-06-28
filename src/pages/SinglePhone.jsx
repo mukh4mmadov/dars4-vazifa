@@ -23,8 +23,8 @@ function SinglePhone() {
             <div>
               <h1>{phone.title}</h1>
               <p>{phone.rating}</p>
-              <Link to="/">Go home</Link>
-              <Link>Buy now</Link>
+              <Link to="/"> home</Link>
+              <Link>Buy</Link>
             </div>
           );
         })}
