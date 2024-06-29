@@ -24,7 +24,7 @@ function SinglePhone() {
               <h1>{phone.title}</h1>
               <p>{phone.rating}</p>
               <Link to="/"> home</Link>
-              <Link>Buy</Link>
+              <Link>sotib olish</Link>
             </div>
           );
         })}

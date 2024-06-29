@@ -27,11 +27,11 @@ function Articles() {
               />
               <h1 className=" text-2xl my-3">{phone.title}</h1>
               <small className="text-[16px] font-medium text-blue-500 mb-3">
-                Price: {phone.price} $
+                Narx: {phone.price} $
               </small>
               <div className="card-actions justify-end">
                 <Link className="btn btn-primary" to={`/articles/${phone.id}`}>
-                  Read More
+                  yana o'qish
                 </Link>
               </div>
             </div>
